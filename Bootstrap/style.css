@@ -1,0 +1,42 @@
+/* Common css start */
+:root{
+    --primary-color:#FFCC00;
+    --secondary-color: #353535;
+    --secondary-text:#7A7A7A;
+    --default-white: #ffff;
+    --default-black: #0000;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+a,button{
+    font-weight: 500;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration:none;
+
+}
+/* Common css end */
